@@ -11,11 +11,11 @@ import com.telia.employee.mapper.EmployeeServiceMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.core.env.Environment;
-import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.StringUtils;
 
-@Component
+@Service
 @PropertySource("classpath:messages.properties")
 public class EmployeeDelegate {
 
